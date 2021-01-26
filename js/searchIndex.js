@@ -588,7 +588,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AobterDefesas\u0028\u0029",
             "name": "obterDefesas",
-            "summary": "Obter\u0020todas\u0020defesas\u0020conclu\u00EDdas\u0020de\u0020um\u0020indiv\u00EDduo",
+            "summary": "Obter\u0020todas\u0020defesas\u0020conclu\u00EDdas\u0020de\u0020uma\u0020pessoa",
             "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_obterDefesas"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Uteis",
