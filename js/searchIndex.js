@@ -573,22 +573,22 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AobterOrientandosAtivos\u0028\u0029",
             "name": "obterOrientandosAtivos",
-            "summary": "",
+            "summary": "Retorna\u0020lista\u0020de\u0020orientandos\u0020ativos\u0020de\u0020um\u0020docente\u0020\u0028orientador\u0029,\ncom\u0020o\u0020n\u00FAmero\u0020USP,\u0020nome,\u0020o\u0020respectivo\u0020n\u00EDvel\u0020de\u0020programa\u0020de\u0020p\u00F3s\u0020gradua\u00E7\u00E3o\n\u0028Mestrado,\u0020Doutorado\u0020ou\u0020Doutorado\u0020Direto\u0029\u0020e\u0020nome\u0020da\u0020\u00E1rea.",
             "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_obterOrientandosAtivos"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AobterOrientandosConcluidos\u0028\u0029",
             "name": "obterOrientandosConcluidos",
-            "summary": "",
+            "summary": "Retorna\u0020lista\u0020de\u0020orientandos\u0020que\u0020j\u00E1\u0020conclu\u00EDram\u0020seus\u0020programas\u0020\u0028Mestrado,\u0020Doutorado\u0020ou\u0020Doutorado\u0020Direto\u0029,\na\u0020partir\u0020do\u0020n\u00FAmero\u0020USP\u0020do\u0020orientador.",
             "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_obterOrientandosConcluidos"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AlistarDefesas\u0028\u0029",
             "name": "listarDefesas",
-            "summary": "",
+            "summary": "Listar\u0020defesas\u0020em\u0020um\u0020intervalo\u0020de\u0020tempo",
             "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_listarDefesas"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AobterDefesas\u0028\u0029",
             "name": "obterDefesas",
-            "summary": "",
+            "summary": "Obter\u0020todas\u0020defesas\u0020conclu\u00EDdas\u0020de\u0020um\u0020indiv\u00EDduo",
             "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_obterDefesas"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Uteis",

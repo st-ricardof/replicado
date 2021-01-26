@@ -120,14 +120,17 @@ e programa (opcional) especificado</dd>
                 <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_membrosBanca">membrosBanca()</a> : array|bool</dt>
             <dd>Retorna os membros da banca de um discente
 Pode-se especificar ou não o programa ou o número sequencial</dd>
-                <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_obterOrientandosAtivos">obterOrientandosAtivos()</a> : mixed</dt>
-            <dd></dd>
-                <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_obterOrientandosConcluidos">obterOrientandosConcluidos()</a> : mixed</dt>
-            <dd></dd>
-                <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_listarDefesas">listarDefesas()</a> : mixed</dt>
-            <dd></dd>
-                <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_obterDefesas">obterDefesas()</a> : mixed</dt>
-            <dd></dd>
+                <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_obterOrientandosAtivos">obterOrientandosAtivos()</a> : array</dt>
+            <dd>Retorna lista de orientandos ativos de um docente (orientador),
+com o número USP, nome, o respectivo nível de programa de pós graduação
+(Mestrado, Doutorado ou Doutorado Direto) e nome da área.</dd>
+                <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_obterOrientandosConcluidos">obterOrientandosConcluidos()</a> : array</dt>
+            <dd>Retorna lista de orientandos que já concluíram seus programas (Mestrado, Doutorado ou Doutorado Direto),
+a partir do número USP do orientador.</dd>
+                <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_listarDefesas">listarDefesas()</a> : array</dt>
+            <dd>Listar defesas em um intervalo de tempo</dd>
+                <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_obterDefesas">obterDefesas()</a> : array</dt>
+            <dd>Obter todas defesas concluídas de um indivíduo</dd>
                 </dl>
 
 
@@ -1032,6 +1035,9 @@ Pode-se especificar ou não o programa ou o número sequencial</p>
         :
         <span class="phpdocumentor-element-found-in__line">539</span>
     </aside>
+        <p class="phpdocumentor-summary">Retorna lista de orientandos ativos de um docente (orientador),
+com o número USP, nome, o respectivo nível de programa de pós graduação
+(Mestrado, Doutorado ou Doutorado Direto) e nome da área.</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
         <span class="phpdocumentor-signature__visibility">public</span>
                         <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">obterOrientandosAtivos</span>(
@@ -1040,7 +1046,7 @@ Pode-se especificar ou não o programa ou o número sequencial</p>
                 <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </span>
                 )
-        : <span class="phpdocumentor-signature__response_type">mixed</span>
+        : <span class="phpdocumentor-signature__response_type">array</span>
     </code>
 
     
@@ -1057,7 +1063,7 @@ Pode-se especificar ou não o programa ou o número sequencial</p>
 
 
             <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">mixed</span>
+        <span class="phpdocumentor-signature__response_type">array</span>
             
 </article>
                                     <a id="method_obterOrientandosConcluidos"></a>
@@ -1073,6 +1079,8 @@ Pode-se especificar ou não o programa ou o número sequencial</p>
         :
         <span class="phpdocumentor-element-found-in__line">557</span>
     </aside>
+        <p class="phpdocumentor-summary">Retorna lista de orientandos que já concluíram seus programas (Mestrado, Doutorado ou Doutorado Direto),
+a partir do número USP do orientador.</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
         <span class="phpdocumentor-signature__visibility">public</span>
                         <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">obterOrientandosConcluidos</span>(
@@ -1081,9 +1089,10 @@ Pode-se especificar ou não o programa ou o número sequencial</p>
                 <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </span>
                 )
-        : <span class="phpdocumentor-signature__response_type">mixed</span>
+        : <span class="phpdocumentor-signature__response_type">array</span>
     </code>
 
+        <section class="phpdocumentor-description"><p>Retorna o número USP, nome, o respectivo nível de programa de pós graduação, nome da área e data de defesa do programa.</p></section>
     
             <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
         <dl class="phpdocumentor-argument-list">
@@ -1098,7 +1107,7 @@ Pode-se especificar ou não o programa ou o número sequencial</p>
 
 
             <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">mixed</span>
+        <span class="phpdocumentor-signature__response_type">array</span>
             
 </article>
                                     <a id="method_listarDefesas"></a>
@@ -1114,15 +1123,16 @@ Pode-se especificar ou não o programa ou o número sequencial</p>
         :
         <span class="phpdocumentor-element-found-in__line">572</span>
     </aside>
+        <p class="phpdocumentor-summary">Listar defesas em um intervalo de tempo</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
         <span class="phpdocumentor-signature__visibility">public</span>
                         <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">listarDefesas</span>(
                     <span class="phpdocumentor-signature__argument">
             [                <span class="phpdocumentor-signature__argument__name">$intervalo</span> :
-                <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                <span class="phpdocumentor-signature__argument__return-type">array</span>
                  = <span class="phpdocumentor-signature__argument__default-value">[]</span> ]            </span>
                 )
-        : <span class="phpdocumentor-signature__response_type">mixed</span>
+        : <span class="phpdocumentor-signature__response_type">array</span>
     </code>
 
     
@@ -1130,16 +1140,16 @@ Pode-se especificar ou não o programa ou o número sequencial</p>
         <dl class="phpdocumentor-argument-list">
                             <dt class="phpdocumentor-argument-list__entry">
                     <span class="phpdocumentor-signature__argument__name">$intervalo</span>
-                    : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">array</span>
                      = <span class="phpdocumentor-signature__argument__default-value">[]</span>                </dt>
-                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"></section></dd>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><p>= ['inicio'=&gt; '2020-01-01', 'fim' =&gt; '2020-01-01']</p></section></dd>
                     </dl>
     
     
 
 
             <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">mixed</span>
+        <span class="phpdocumentor-signature__response_type">array</span>
             
 </article>
                                     <a id="method_obterDefesas"></a>
@@ -1153,8 +1163,9 @@ Pode-se especificar ou não o programa ou o número sequencial</p>
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Posgraduacao.php"><a href="../files/src-posgraduacao.html"><abbr title="src/Posgraduacao.php">Posgraduacao.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">593</span>
+        <span class="phpdocumentor-element-found-in__line">594</span>
     </aside>
+        <p class="phpdocumentor-summary">Obter todas defesas concluídas de um indivíduo</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
         <span class="phpdocumentor-signature__visibility">public</span>
                         <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">obterDefesas</span>(
@@ -1163,7 +1174,7 @@ Pode-se especificar ou não o programa ou o número sequencial</p>
                 <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </span>
                 )
-        : <span class="phpdocumentor-signature__response_type">mixed</span>
+        : <span class="phpdocumentor-signature__response_type">array</span>
     </code>
 
     
@@ -1180,7 +1191,7 @@ Pode-se especificar ou não o programa ou o número sequencial</p>
 
 
             <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">mixed</span>
+        <span class="phpdocumentor-signature__response_type">array</span>
             
 </article>
                                                             </section>
