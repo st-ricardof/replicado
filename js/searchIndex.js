@@ -288,7 +288,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetLivrosPublicados\u0028\u0029",
             "name": "getLivrosPublicados",
-            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u00205\u0020\u00FAltimos\u0020livros\u0020publicados\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes,\ncom\u0020o\u0020respectivo\u0020t\u00EDtulo\u0020do\u0020livro,\u0020ano,\u0020n\u00FAmero\u0020de\u0020p\u00E1ginas\u0020e\u0020nome\u0020da\u0020editora",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020livros\u0020publicados\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes,\ncom\u0020o\u0020respectivo\u0020t\u00EDtulo\u0020do\u0020livro,\u0020ano,\u0020n\u00FAmero\u0020de\u0020p\u00E1ginas,\u0020nome\u0020da\u0020editora\u0020e\u0020autores",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_getLivrosPublicados"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetCapitulosLivros\u0028\u0029",
