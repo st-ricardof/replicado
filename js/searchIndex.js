@@ -576,6 +576,16 @@ Search.appendIndex(
             "summary": "Retorna\u0020lista\u0020de\u0020alunos\u0020que\u0020defenderam\u0020p\u00F3s\u002Dgradua\u00E7\u00E3o\u0020em\u0020determinada\u0020\u00E1rea",
             "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_egressosArea"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AcontarEgressosAreaAgrupadoPorAno\u0028\u0029",
+            "name": "contarEgressosAreaAgrupadoPorAno",
+            "summary": "Retorna\u0020lista\u0020de\u0020alunos\u0020que\u0020defenderam\u0020p\u00F3s\u002Dgradua\u00E7\u00E3o\u0020em\u0020determinada\u0020\u00E1rea",
+            "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_contarEgressosAreaAgrupadoPorAno"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AcontarAtivos\u0028\u0029",
+            "name": "contarAtivos",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020quantidade\u0020alunos\u0020de\u0020p\u00F3s\u002Dgradua\u00E7\u00E3o\u0020em\u0020uma\u0020\u00E1rea\u0020\u0028codare\u0029",
+            "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_contarAtivos"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AcontarAtivosPorGenero\u0028\u0029",
             "name": "contarAtivosPorGenero",
             "summary": "M\u00E9todo\u0020para\u0020retornar\u0020quantidade\u0020alunos\u0020de\u0020p\u00F3s\u002Dgradua\u00E7\u00E3o\u0020do\u0020g\u00EAnero\ne\u0020programa\u0020\u0028opcional\u0029\u0020especificado",
