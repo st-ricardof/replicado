@@ -621,6 +621,11 @@ Search.appendIndex(
             "summary": "Obter\u0020todas\u0020defesas\u0020conclu\u00EDdas\u0020de\u0020uma\u0020pessoa",
             "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_obterDefesas"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AobterAtivosPorArea\u0028\u0029",
+            "name": "obterAtivosPorArea",
+            "summary": "Retorna\u0020nome\u0020e\u0020n\u00FAmero\u0020USP\u0020dos\u0020alunos\u0020ativos\u0020nos\u0020programas\u0020de\u0020p\u00F3s\u002Dgradua\u00E7\u00E3o\u0020na\u0020unidade",
+            "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_obterAtivosPorArea"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Uteis",
             "name": "Uteis",
             "summary": "",
