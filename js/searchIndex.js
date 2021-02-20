@@ -336,6 +336,16 @@ Search.appendIndex(
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020os\u0020t\u00EDtulo\u0020das\u0020teses\u0020de\u0020Doutorado\u0020onde\u0020o\u0020docente\u0020particiou\u0020como\u0020integrante\u0020da\u0020banca\u0020avaliadora.",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_getBancaDoutorado"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetFormacaoAcademica\u0028\u0029",
+            "name": "getFormacaoAcademica",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020o\u0020t\u00EDtulo\u0020do\u0020trabalho,\u0020nome\u0020da\u0020institui\u00E7\u00E3o\u0020e\u0020ano\u0020da\u0020forma\u00E7\u00E3o\u0020acad\u00EAmica,\u0020sendo\u0020Gradu\u00E7\u00E3o,\u0020Doutorado,\u0020etc.",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getFormacaoAcademica"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetFormacaoProfissional\u0028\u0029",
+            "name": "getFormacaoProfissional",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020os\u0020v\u00EDnculos\u0020profissionais\u0020atuais\u003A\u0020nome\u0020da\u0020institui\u00E7\u00E3o,\u0020ano\u0020de\u0020inicio\u0020e\u0020ano\u0020fim\u0020e\u0020o\u0020tipo\u0020de\u0020v\u00EDnculo.",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getFormacaoProfissional"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Pessoa",
             "name": "Pessoa",
             "summary": "",
