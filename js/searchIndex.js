@@ -306,6 +306,21 @@ Search.appendIndex(
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020trabalhos\u0020t\u00E9cnicos\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarTrabalhosTecnicos"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarOrganizacaoEvento\u0028\u0029",
+            "name": "listarOrganizacaoEvento",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020t\u00E9cnicas\u0020cadastradas\u0020no\u0020curr\u00EDculo\u0020Lattes,\u0020identidicadas\u0020como\u0020\u0027Demais\u0020tipos\u0020de\u0020produ\u00E7\u00E3o\u0020t\u00E9cnica\u0027",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarOrganizacaoEvento"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarOutrasProducoesTecnicas\u0028\u0029",
+            "name": "listarOutrasProducoesTecnicas",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020t\u00E9cnicas\u0020cadastradas\u0020no\u0020curr\u00EDculo\u0020Lattes,\u0020identidicadas\u0020como\u0020\u0027Demais\u0020tipos\u0020de\u0020produ\u00E7\u00E3o\u0020t\u00E9cnica\u0027",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarOutrasProducoesTecnicas"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarCursosCurtaDuracao\u0028\u0029",
+            "name": "listarCursosCurtaDuracao",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020os\u0020cursos\u0020de\u0020curta\u0020dura\u00E7\u00E3o\u0020ministrados\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarCursosCurtaDuracao"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarOutrasProducoesBibliograficas\u0028\u0029",
             "name": "listarOutrasProducoesBibliograficas",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020bibliogr\u00E1ficas,\u0020uma\u0020subcategoria\u0020das\u0020produ\u00E7\u00F5es,\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
