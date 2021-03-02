@@ -321,6 +321,16 @@ Search.appendIndex(
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020os\u0020cursos\u0020de\u0020curta\u0020dura\u00E7\u00E3o\u0020ministrados\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarCursosCurtaDuracao"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarRelatoriopesquisa\u0028\u0029",
+            "name": "listarRelatoriopesquisa",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020os\u0020relat\u00F3rios\u0020de\u0020pesquisa\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarRelatoriopesquisa"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarMaterialDidaticoInstrucional\u0028\u0029",
+            "name": "listarMaterialDidaticoInstrucional",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020materiais\u0020did\u00E1ticos\u0020ou\u0020instrucionais\u0020do\u0020autor\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarMaterialDidaticoInstrucional"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarOutrasProducoesBibliograficas\u0028\u0029",
             "name": "listarOutrasProducoesBibliograficas",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020bibliogr\u00E1ficas,\u0020uma\u0020subcategoria\u0020das\u0020produ\u00E7\u00F5es,\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",

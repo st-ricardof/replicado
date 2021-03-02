@@ -123,6 +123,10 @@ com o respectivo título do livro, ano, número de páginas, nome da editora e a
             <dd>Recebe o número USP e devolve array com as &quot;outras&quot; produções técnicas cadastradas no currículo Lattes, identidicadas como &#039;Demais tipos de produção técnica&#039;</dd>
                 <dt><a href="../classes/Uspdev-Replicado-Lattes.html#method_listarCursosCurtaDuracao">listarCursosCurtaDuracao()</a> : string|bool</dt>
             <dd>Recebe o número USP e devolve array os cursos de curta duração ministrados cadastrados no currículo Lattes</dd>
+                <dt><a href="../classes/Uspdev-Replicado-Lattes.html#method_listarRelatoriopesquisa">listarRelatoriopesquisa()</a> : string|bool</dt>
+            <dd>Recebe o número USP e devolve array os relatórios de pesquisa cadastrados no currículo Lattes</dd>
+                <dt><a href="../classes/Uspdev-Replicado-Lattes.html#method_listarMaterialDidaticoInstrucional">listarMaterialDidaticoInstrucional()</a> : string|bool</dt>
+            <dd>Recebe o número USP e devolve array com os materiais didáticos ou instrucionais do autor cadastrados no currículo Lattes</dd>
                 <dt><a href="../classes/Uspdev-Replicado-Lattes.html#method_listarOutrasProducoesBibliograficas">listarOutrasProducoesBibliograficas()</a> : array|bool</dt>
             <dd>Recebe o número USP e devolve array com as &quot;outras&quot; produções bibliográficas, uma subcategoria das produções, cadastrados no currículo Lattes</dd>
                 <dt><a href="../classes/Uspdev-Replicado-Lattes.html#method_listarCapitulosLivros">listarCapitulosLivros()</a> : array|bool</dt>
@@ -1299,6 +1303,162 @@ com o respectivo título do livro, ano, número de páginas, nome da editora e a
         <span class="phpdocumentor-signature__response_type">string|bool</span>
             
 </article>
+                                    <a id="method_listarRelatoriopesquisa"></a>
+<article
+        class="
+            phpdocumentor-method
+            phpdocumentor-method--public
+                                    phpdocumentor-element--static                    "
+>
+    <h4 class="phpdocumentor-method__name">listarRelatoriopesquisa()</h4>
+    <aside class="phpdocumentor-element-found-in">
+        <abbr class="phpdocumentor-element-found-in__file" title="src/Lattes.php"><a href="../files/src-lattes.html"><abbr title="src/Lattes.php">Lattes.php</abbr></a></abbr>
+        :
+        <span class="phpdocumentor-element-found-in__line">922</span>
+    </aside>
+        <p class="phpdocumentor-summary">Recebe o número USP e devolve array os relatórios de pesquisa cadastrados no currículo Lattes</p>
+        <code class="phpdocumentor-signature phpdocumentor-code ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+                        <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">listarRelatoriopesquisa</span>(
+                    <span class="phpdocumentor-signature__argument">
+                            <span class="phpdocumentor-signature__argument__name">$codpes</span> :
+                <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </span>
+                    <span class="phpdocumentor-signature__argument">
+            [,                 <span class="phpdocumentor-signature__argument__name">$lattes_array</span> :
+                <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span> ]            </span>
+                    <span class="phpdocumentor-signature__argument">
+            [,                 <span class="phpdocumentor-signature__argument__name">$tipo</span> :
+                <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;registros&#039;</span> ]            </span>
+                    <span class="phpdocumentor-signature__argument">
+            [,                 <span class="phpdocumentor-signature__argument__name">$limit_ini</span> :
+                <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">5</span> ]            </span>
+                    <span class="phpdocumentor-signature__argument">
+            [,                 <span class="phpdocumentor-signature__argument__name">$limit_fim</span> :
+                <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span> ]            </span>
+                )
+        : <span class="phpdocumentor-signature__response_type">string|bool</span>
+    </code>
+
+    
+            <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+        <dl class="phpdocumentor-argument-list">
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$codpes</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                                    </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><p>= Número USP</p></section></dd>
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$lattes_array</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                     = <span class="phpdocumentor-signature__argument__default-value">null</span>                </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"></section></dd>
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$tipo</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                     = <span class="phpdocumentor-signature__argument__default-value">&#039;registros&#039;</span>                </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><p>= Valores possíveis para determinar o limite: 'anual' e 'registros', 'periodo'. Default: últimos 5 registros.</p></section></dd>
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$limit_ini</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                     = <span class="phpdocumentor-signature__argument__default-value">5</span>                </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><p>= Limite de retorno conforme o tipo. Se for anual, o limit vai pegar os registros dos 'n' útimos anos; se for registros, irá retornar os últimos n livros; se for período, irá pegar os registros do ano entre limit_ini e limit_fim. Se limit_ini for igaul a -1, então retornará todos os registros</p></section></dd>
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$limit_fim</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                     = <span class="phpdocumentor-signature__argument__default-value">null</span>                </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><p>= Se  o tipo for periodo, irá pegar os registros do ano entre limit_ini e limit_fim</p></section></dd>
+                    </dl>
+    
+    
+
+
+            <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|bool</span>
+            
+</article>
+                                    <a id="method_listarMaterialDidaticoInstrucional"></a>
+<article
+        class="
+            phpdocumentor-method
+            phpdocumentor-method--public
+                                    phpdocumentor-element--static                    "
+>
+    <h4 class="phpdocumentor-method__name">listarMaterialDidaticoInstrucional()</h4>
+    <aside class="phpdocumentor-element-found-in">
+        <abbr class="phpdocumentor-element-found-in__file" title="src/Lattes.php"><a href="../files/src-lattes.html"><abbr title="src/Lattes.php">Lattes.php</abbr></a></abbr>
+        :
+        <span class="phpdocumentor-element-found-in__line">1007</span>
+    </aside>
+        <p class="phpdocumentor-summary">Recebe o número USP e devolve array com os materiais didáticos ou instrucionais do autor cadastrados no currículo Lattes</p>
+        <code class="phpdocumentor-signature phpdocumentor-code ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+                        <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">listarMaterialDidaticoInstrucional</span>(
+                    <span class="phpdocumentor-signature__argument">
+                            <span class="phpdocumentor-signature__argument__name">$codpes</span> :
+                <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </span>
+                    <span class="phpdocumentor-signature__argument">
+            [,                 <span class="phpdocumentor-signature__argument__name">$lattes_array</span> :
+                <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span> ]            </span>
+                    <span class="phpdocumentor-signature__argument">
+            [,                 <span class="phpdocumentor-signature__argument__name">$tipo</span> :
+                <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;registros&#039;</span> ]            </span>
+                    <span class="phpdocumentor-signature__argument">
+            [,                 <span class="phpdocumentor-signature__argument__name">$limit_ini</span> :
+                <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">5</span> ]            </span>
+                    <span class="phpdocumentor-signature__argument">
+            [,                 <span class="phpdocumentor-signature__argument__name">$limit_fim</span> :
+                <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span> ]            </span>
+                )
+        : <span class="phpdocumentor-signature__response_type">string|bool</span>
+    </code>
+
+    
+            <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+        <dl class="phpdocumentor-argument-list">
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$codpes</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                                    </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><p>= Número USP</p></section></dd>
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$lattes_array</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                     = <span class="phpdocumentor-signature__argument__default-value">null</span>                </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"></section></dd>
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$tipo</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                     = <span class="phpdocumentor-signature__argument__default-value">&#039;registros&#039;</span>                </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><p>= Valores possíveis para determinar o limite: 'anual' e 'registros', 'periodo'. Default: últimos 5 registros.</p></section></dd>
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$limit_ini</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                     = <span class="phpdocumentor-signature__argument__default-value">5</span>                </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><p>= Limite de retorno conforme o tipo. Se for anual, o limit vai pegar os registros dos 'n' útimos anos; se for registros, irá retornar os últimos n livros; se for período, irá pegar os registros do ano entre limit_ini e limit_fim. Se limit_ini for igaul a -1, então retornará todos os registros</p></section></dd>
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$limit_fim</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                     = <span class="phpdocumentor-signature__argument__default-value">null</span>                </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><p>= Se  o tipo for periodo, irá pegar os registros do ano entre limit_ini e limit_fim</p></section></dd>
+                    </dl>
+    
+    
+
+
+            <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|bool</span>
+            
+</article>
                                     <a id="method_listarOutrasProducoesBibliograficas"></a>
 <article
         class="
@@ -1310,7 +1470,7 @@ com o respectivo título do livro, ano, número de páginas, nome da editora e a
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Lattes.php"><a href="../files/src-lattes.html"><abbr title="src/Lattes.php">Lattes.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">922</span>
+        <span class="phpdocumentor-element-found-in__line">1140</span>
     </aside>
         <p class="phpdocumentor-summary">Recebe o número USP e devolve array com as &quot;outras&quot; produções bibliográficas, uma subcategoria das produções, cadastrados no currículo Lattes</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -1388,7 +1548,7 @@ com o respectivo título do livro, ano, número de páginas, nome da editora e a
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Lattes.php"><a href="../files/src-lattes.html"><abbr title="src/Lattes.php">Lattes.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">1068</span>
+        <span class="phpdocumentor-element-found-in__line">1286</span>
     </aside>
         <p class="phpdocumentor-summary">Recebe o número USP e devolve array com os 5 últimos capítulos de livros publicados cadastrados no currículo Lattes,
 com o respectivo título do capítulo, título do livro, número de volumes, página inicial e final do capítulo, ano e nome da editora.</p>
@@ -1467,7 +1627,7 @@ com o respectivo título do capítulo, título do livro, número de volumes, pá
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Lattes.php"><a href="../files/src-lattes.html"><abbr title="src/Lattes.php">Lattes.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">1198</span>
+        <span class="phpdocumentor-element-found-in__line">1416</span>
     </aside>
         <p class="phpdocumentor-summary">Recebe o número USP e devolve array com o título e ano da tese especificada (MESTRADO ou DOUTORADO), cadastrada no currículo Lattes.</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -1528,7 +1688,7 @@ com o respectivo título do capítulo, título do livro, número de volumes, pá
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Lattes.php"><a href="../files/src-lattes.html"><abbr title="src/Lattes.php">Lattes.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">1253</span>
+        <span class="phpdocumentor-element-found-in__line">1471</span>
     </aside>
         <p class="phpdocumentor-summary">Recebe o número USP e retorna array com o título da tese de Livre-Docência, cadastrada no currículo Lattes.</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -1579,7 +1739,7 @@ com o respectivo título do capítulo, título do livro, número de volumes, pá
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Lattes.php"><a href="../files/src-lattes.html"><abbr title="src/Lattes.php">Lattes.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">1289</span>
+        <span class="phpdocumentor-element-found-in__line">1507</span>
     </aside>
         <p class="phpdocumentor-summary">Recebe o número USP e retorna array com os título das teses de Mestrado onde o docente particiou como integrante da banca avaliadora.</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -1630,7 +1790,7 @@ com o respectivo título do capítulo, título do livro, número de volumes, pá
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Lattes.php"><a href="../files/src-lattes.html"><abbr title="src/Lattes.php">Lattes.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">1315</span>
+        <span class="phpdocumentor-element-found-in__line">1533</span>
     </aside>
         <p class="phpdocumentor-summary">Recebe o número USP e retorna array com os título das teses de Doutorado onde o docente particiou como integrante da banca avaliadora.</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -1681,7 +1841,7 @@ com o respectivo título do capítulo, título do livro, número de volumes, pá
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Lattes.php"><a href="../files/src-lattes.html"><abbr title="src/Lattes.php">Lattes.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">1348</span>
+        <span class="phpdocumentor-element-found-in__line">1566</span>
     </aside>
         <p class="phpdocumentor-summary">Recebe o número USP e retorna array com o título do trabalho, nome da instituição e ano da formação acadêmica, sendo Gradução, Doutorado, etc.</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -1732,7 +1892,7 @@ com o respectivo título do capítulo, título do livro, número de volumes, pá
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Lattes.php"><a href="../files/src-lattes.html"><abbr title="src/Lattes.php">Lattes.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">1508</span>
+        <span class="phpdocumentor-element-found-in__line">1726</span>
     </aside>
         <p class="phpdocumentor-summary">Recebe o número USP e retorna array com os vínculos profissionais atuais: nome da instituição, ano de inicio e ano fim e o tipo de vínculo.</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
