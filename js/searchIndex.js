@@ -368,8 +368,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarFormacaoProfissional\u0028\u0029",
             "name": "listarFormacaoProfissional",
-            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020os\u0020v\u00EDnculos\u0020profissionais\u0020atuais\u003A\u0020nome\u0020da\u0020institui\u00E7\u00E3o,\u0020ano\u0020de\u0020inicio\u0020e\u0020ano\u0020fim\u0020e\u0020o\u0020tipo\u0020de\u0020v\u00EDnculo.",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020os\u0020v\u00EDnculos\u0020profissionais\u0020atuais\u003A\u0020nome\u0020da\u0020institui\u00E7\u00E3o,\u0020ano\u0020de\u0020inicio\u0020e\nano\u0020fim,\u0020tipo\u0020de\u0020v\u00EDnculo\u0020e\u0020outras\u0020informa\u00E7\u00F5es.",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarFormacaoProfissional"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarRadioTV\u0028\u0029",
+            "name": "listarRadioTV",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020as\u0020participa\u00E7\u00F5es\u0020em\u0020r\u00E1dio\u0020ou\u0020TV\u0020presente\u0020no\u0020curr\u00EDculo\u0020Lattes,\u0020com\u0020o\u0020t\u00EDtulo\u0020da\u0020entrevista,\nemissora\u0020e\u0020nome\u0020para\u0020cita\u00E7\u00E3o.",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarRadioTV"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Pessoa",
             "name": "Pessoa",
