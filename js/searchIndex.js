@@ -486,10 +486,15 @@ Search.appendIndex(
             "summary": "M\u00E9todo\u0020para\u0020retornar\u0020\u002Aarray\u002A\u0020com\u0020todas\u0020as\u0020pessoas\u0020ativas\u0020por\u0020v\u00EDnculo\nSomente\u0020ATIVOS\u0020\u0028tamb\u00E9m\u0020Docente\u0020Aposentado\u0029\nSe\u0020o\u0020terceiro\u0020par\u00E2metro\u0020\u002A\u0024contar\u002A\u0020for\u0020igual\u0020a\u00201,\u0020retorna\u0020um\u0020\u002Aarray\u002A\ncom\u0020o\u0020\u00EDndice\u0020\u002Atotal\u002A\u0020que\u0020corresponde\u0020ao\u0020n\u00FAmero\u0020total\u0020de\u0020pessoas\u0020do\u0020tipo\u0020de\u0020v\u00EDnculo",
             "url": "../classes/Uspdev-Replicado-Pessoa.html#method_ativosVinculo"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AlistarServidoresAtivosSetor\u0028\u0029",
-            "name": "listarServidoresAtivosSetor",
-            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020todas\u0020as\u0020pessoas\u0020ativas\u0020por\u0020setor\u0028es\u0029",
-            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarServidoresAtivosSetor"
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AlistarServidoresSetor\u0028\u0029",
+            "name": "listarServidoresSetor",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020\u002Aarray\u002A\u0020com\u0020a\u0020lista\u0020de\u0020servidores\u0020\u0028docentes,\u0020funcion\u00E1rios\u0020e\u0020estagi\u00E1rios\u0029\u0020por\u0020setor\u0028es\u0029\nSe\u0020aposentados\u0020\u003D\u00201,\u0020lista\u0020tamb\u00E9m\u0020os\u0020docentes\u0020aposentados\u0020\u0028stiatl\u0020\u003D\u0020\u0027P\u0027\u0020AND\u0020tipvinext\u0020NOT\u0020IN\u0020\u0028\u0027Servidor\u0020Aposentado\u0027\u0029",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarServidoresSetor"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AcontarServidoresSetor\u0028\u0029",
+            "name": "contarServidoresSetor",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020o\u0020total\u0020de\u0020servidores\u0020\u0028docentes,\u0020funcion\u00E1rios\u0020e\u0020estagi\u00E1rios\u0029\u0020por\u0020setor\u0028es\u0029\nSe\u0020aposentados\u0020\u003D\u00201,\u0020conta\u0020tamb\u00E9m\u0020os\u0020docentes\u0020aposentados\u0020\u0028stiatl\u0020\u003D\u0020\u0027P\u0027\u0020AND\u0020tipvinext\u0020NOT\u0020IN\u0020\u0028\u0027Servidor\u0020Aposentado\u0027\u0029",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_contarServidoresSetor"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AvinculosSetores\u0028\u0029",
             "name": "vinculosSetores",
