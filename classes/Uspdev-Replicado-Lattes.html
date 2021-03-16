@@ -148,6 +148,8 @@ ano fim, tipo de vínculo e outras informações.</dd>
                 <dt><a href="../classes/Uspdev-Replicado-Lattes.html#method_listarRadioTV">listarRadioTV()</a> : array|bool</dt>
             <dd>Recebe o número USP e retorna array com as participações em rádio ou TV presente no currículo Lattes, com o título da entrevista,
 emissora e nome para citação.</dd>
+                <dt><a href="../classes/Uspdev-Replicado-Lattes.html#method_retornarOrcidID">retornarOrcidID()</a> : string|bool</dt>
+            <dd>Recebe o número USP e devolve OrcidID cadastrado no currículo lattes</dd>
                 </dl>
 
 
@@ -2014,6 +2016,57 @@ emissora e nome para citação.</p>
 
             <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">array|bool</span>
+            
+</article>
+                                    <a id="method_retornarOrcidID"></a>
+<article
+        class="
+            phpdocumentor-method
+            phpdocumentor-method--public
+                                    phpdocumentor-element--static                    "
+>
+    <h4 class="phpdocumentor-method__name">retornarOrcidID()</h4>
+    <aside class="phpdocumentor-element-found-in">
+        <abbr class="phpdocumentor-element-found-in__file" title="src/Lattes.php"><a href="../files/src-lattes.html"><abbr title="src/Lattes.php">Lattes.php</abbr></a></abbr>
+        :
+        <span class="phpdocumentor-element-found-in__line">1928</span>
+    </aside>
+        <p class="phpdocumentor-summary">Recebe o número USP e devolve OrcidID cadastrado no currículo lattes</p>
+        <code class="phpdocumentor-signature phpdocumentor-code ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+                        <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">retornarOrcidID</span>(
+                    <span class="phpdocumentor-signature__argument">
+                            <span class="phpdocumentor-signature__argument__name">$codpes</span> :
+                <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </span>
+                    <span class="phpdocumentor-signature__argument">
+            [,                 <span class="phpdocumentor-signature__argument__name">$lattes_array</span> :
+                <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span> ]            </span>
+                )
+        : <span class="phpdocumentor-signature__response_type">string|bool</span>
+    </code>
+
+    
+            <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+        <dl class="phpdocumentor-argument-list">
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$codpes</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                                    </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"></section></dd>
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$lattes_array</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                     = <span class="phpdocumentor-signature__argument__default-value">null</span>                </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"></section></dd>
+                    </dl>
+    
+    
+
+
+            <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|bool</span>
             
 </article>
                                                             </section>

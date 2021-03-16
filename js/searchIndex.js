@@ -376,6 +376,11 @@ Search.appendIndex(
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020as\u0020participa\u00E7\u00F5es\u0020em\u0020r\u00E1dio\u0020ou\u0020TV\u0020presente\u0020no\u0020curr\u00EDculo\u0020Lattes,\u0020com\u0020o\u0020t\u00EDtulo\u0020da\u0020entrevista,\nemissora\u0020e\u0020nome\u0020para\u0020cita\u00E7\u00E3o.",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarRadioTV"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AretornarOrcidID\u0028\u0029",
+            "name": "retornarOrcidID",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020OrcidID\u0020cadastrado\u0020no\u0020curr\u00EDculo\u0020lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_retornarOrcidID"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Pessoa",
             "name": "Pessoa",
             "summary": "",
