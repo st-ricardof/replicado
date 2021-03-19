@@ -381,6 +381,11 @@ Search.appendIndex(
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020OrcidID\u0020cadastrado\u0020no\u0020curr\u00EDculo\u0020lattes",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_retornarOrcidID"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarProjetosPesquisa\u0028\u0029",
+            "name": "listarProjetosPesquisa",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020projetos\u0020de\u0020pesquisa\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes.",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarProjetosPesquisa"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Pessoa",
             "name": "Pessoa",
             "summary": "",
