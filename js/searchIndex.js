@@ -561,6 +561,31 @@ Search.appendIndex(
             "summary": "M\u00E9todo\u0020que\u0020lista\u0020docentes\u0020aposentados\u0020S\u00EAnior\u0020\u0028em\u0020atividade\u0029\nde\u0020uma\u0020unidade\u0020por\u0020setor\u0020\u0028departamento\u0029\u0020solicitado",
             "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarDocentesAposentadosSenior"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AlistarIniciaoCientificaAtiva\u0028\u0029",
+            "name": "listarIniciaoCientificaAtiva",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020as\u0020inicia\u00E7\u00F5es\u0020cient\u00EDficas\u0020vigentes",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarIniciaoCientificaAtiva"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AlistarPesquisadoresColaboradoresAtivos\u0028\u0029",
+            "name": "listarPesquisadoresColaboradoresAtivos",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020os\u0020colaboradores\u0020ativos",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarPesquisadoresColaboradoresAtivos"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AretornarCursoPorCodpes\u0028\u0029",
+            "name": "retornarCursoPorCodpes",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020o\u0020codcur\u0020e\u0020o\u0020nome\u0020do\u0020curso\u0020da\u0020pessoa\u0020atrav\u00E9s\u0020do\u0020codpes",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_retornarCursoPorCodpes"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AretornarProgramaPorCodpes\u0028\u0029",
+            "name": "retornarProgramaPorCodpes",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020o\u0020codare\u0020e\u0020o\u0020nome\u0020do\u0020programa\u0020da\u0020pessoa\u0020atrav\u00E9s\u0020do\u0020codpes",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_retornarProgramaPorCodpes"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AlistarPesquisaPosDoutorandos\u0028\u0029",
+            "name": "listarPesquisaPosDoutorandos",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020os\u0020colaboradores\u0020ativos",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarPesquisaPosDoutorandos"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Posgraduacao",
             "name": "Posgraduacao",
             "summary": "",
