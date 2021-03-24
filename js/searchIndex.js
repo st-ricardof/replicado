@@ -1036,16 +1036,6 @@ Search.appendIndex(
             "summary": "",
             "url": "../classes/Uspdev-Replicado-Tests-PessoaTest.html#method_test_vinculosSiglas"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Tests\\PessoaTest\u003A\u003Atest_setoresSiglas\u0028\u0029",
-            "name": "test_setoresSiglas",
-            "summary": "",
-            "url": "../classes/Uspdev-Replicado-Tests-PessoaTest.html#method_test_setoresSiglas"
-        },                {
-            "fqsen": "\\Uspdev\\Replicado\\Tests\\PessoaTest\u003A\u003Atest_totalVinculo\u0028\u0029",
-            "name": "test_totalVinculo",
-            "summary": "",
-            "url": "../classes/Uspdev-Replicado-Tests-PessoaTest.html#method_test_totalVinculo"
-        },                {
             "fqsen": "\\Uspdev\\Replicado\\Tests\\PessoaTest\u003A\u003Atest_contarDocentesAtivosPorGenero\u0028\u0029",
             "name": "test_contarDocentesAtivosPorGenero",
             "summary": "",
