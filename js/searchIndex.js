@@ -306,6 +306,11 @@ Search.appendIndex(
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020trabalhos\u0020t\u00E9cnicos\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarTrabalhosTecnicos"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarApresentacaoTrabalho\u0028\u0029",
+            "name": "listarApresentacaoTrabalho",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020apresenta\u00E7\u00F5es\u0020de\u0020trabalhos\u0020t\u00E9cnicos\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarApresentacaoTrabalho"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarOrganizacaoEvento\u0028\u0029",
             "name": "listarOrganizacaoEvento",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020t\u00E9cnicas\u0020cadastradas\u0020no\u0020curr\u00EDculo\u0020Lattes,\u0020identidicadas\u0020como\u0020\u0027Demais\u0020tipos\u0020de\u0020produ\u00E7\u00E3o\u0020t\u00E9cnica\u0027",
