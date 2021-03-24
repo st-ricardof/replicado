@@ -231,6 +231,11 @@ Search.appendIndex(
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020o\u0020ID\u0020Lattes\u0020da\u0020pessoa.",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_id"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AretornarCodpesPorIDLattes\u0028\u0029",
+            "name": "retornarCodpesPorIDLattes",
+            "summary": "Recebe\u0020o\u0020ID\u0020Lattes\u0020e\u0020retorna\u0020o\u0020n\u00FAmero\u0020USP\u0020da\u0020pessoa.",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_retornarCodpesPorIDLattes"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AobterZip\u0028\u0029",
             "name": "obterZip",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020o\u0020bin\u00E1rio\u0020zip\u0020do\u0020lattes",
